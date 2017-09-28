@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=1in,footskip=0.25in]{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\begin{document}
+\hfill 9.4. Potentials and Gauge Transformations   241
+
+\textbf{The Lorentz Condition:}
+\vfill
+\hfill $\frac{1}{c} \frac{\partial \phi}{\partial t} + div (A) = 0$. \hfill (9.53)
+
+\vfill
+\noindent As we shall see, by using what are known as gauge transformations we can always select protentials for the electromagnetic field that satisfy this condition. The nice part about having the potentials satisfy the Lorentz condition is that the PDEs (9.51)-(9.52) decouple into a pair of wave equations:
+
+
+
+\vfill
+
+
+\centerline{ $ \frac{\partial^2 \phi}{\partial t^2} - c^2\nabla^2 \phi=4\pi c^2p,$ }
+
+\vfill
+\centerline{ $ \frac{\partial^2 A}{\partial t^2} - c^2\nabla^2 A=4\pi c^2 J,$}
+
+
+
+
+\vfill 
+
+
+
+
+\textbf{Theorem 9.2}  \hspace{5pt}  \textit{(Lorentz Potential Equations) On a simply connected spatial region, the vector fields E, B are a solution of Maxwell's equations if and only if}
+
+\vfill
+
+\hfill $E = -\nabla \phi - \frac{1}{c} \frac{\partial A}{\partial t} , $ \hfill (9.54)
+\vfill
+\hfill $ B=curl(A),$ \hfill (9.55)
+
+\vfill
+
+
+\noindent \textit{for some scalar field $\phi$ and vector field $A$ that satisfy the Lorentz potential equations}
+
+\vfill
+\hfill $\frac{1}{c} \frac{\partial \phi}{\partial t} + div (A) = 0$. \hfill (9.56)
+\vfill
+\hfill $ \frac{\partial^2 \phi}{\partial t^2} - c^2\nabla^2 \phi=4\pi c^2p,$  \hfill (9.57)
+
+\vfill
+\hfill $ \frac{\partial^2 A}{\partial t^2} - c^2\nabla^2 A=4\pi c^2 J,$ \hfill (9.58)
+
+
+\vfill
+\vfill
+
+
+
+
+\begin{proof}[\textbf{Proof}]
+Suppose first $E$ , $B$ is a solution to Maxwell's equation. We repeat some of the above arguments because we have to change the notation slightly. You will see why shortly. Thus, since $div (B) = 0 $ , there exists a vector field $A_0$ such that curl $(A_0) = B$.Substituting this expression for $B$ into Faraday's law gives curl $ (\partial A_0 / \partial t +E) =0$ .Thus there exists a scalar $\phi_0$ such that law gives curl $- \nabla \phi_0 = \partial A_0 / \partial t + E$ . Rearranging this gives $E = - \nabla \phi_0 - \partial A_0 / \partial t$. Thus $E$ and $B$ are given by potentials  $\phi_0$ and $A_0$ in the form of equations (9.54)-(9.55). 
+\end{proof}
+
+\end{document}
