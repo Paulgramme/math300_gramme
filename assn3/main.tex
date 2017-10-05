@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=1in,footskip=0.25in]{geometry}
+\author{Paul Gramme}
+\begin{document}
+%
+%
+\title{Assignment 4}
+\maketitle{}
+%
+%
+\noindent \textbf{1:}
+%
+%
+\newline
+\textbf{A: 16 \space = 00010000 }
+\newline
+\textbf{B: 170 = 10101010 }
+\newline
+\textbf{C: 197 = 11000101 }
+\newline
+\textbf{D: 255 = 11111111 }
+%
+%
+\newline
+\vfill
+\noindent \textbf{2:}
+%
+%
+\newline
+\textbf{You are tasked with determining how many bits are necessary to store some unsigned fixed point numbers with the given restraints.}
+\vfill
+\textbf{9 bits because \[2^0+2^1+2^2+2^3+2^4+2^5+2^6+2^7 = 511\] using 9 bits to create this number. }
+\newline
+%
+%
+\vfill
+\noindent \textbf{3:}
+%
+%
+\newline
+\textbf{Say you are handed two fixed point numbers A and B, where each of them contain N binary digits for the whole portion and M digits for the fractional portion.  How does multiplication affect the number of bits that are required in the result if we multiply A and B if we do not want to lose any information?}
+\vfill
+\textbf{When multiplying you have to use floats or else bit information will be lost throughout the interaction. }
+\newline
+\vfill \vfill
+%
+%%
+%%
+%
+
+\newpage
+\noindent \textbf{4:}
+%
+%
+\newline
+\textbf{A: What protocols will be involved in a secure web transaction?  [Hint: there are at least two]. Explain briefly the role that each protocol that you list plays in their transaction.}
+\vfill
+\textbf{The main protocols involved in a secure web transaction are HTTPS, HTTP and SSL.SSL is used for securing communication between any applications on the internet, HTTP is a protocol that distrubutes information and in combination with SSL makes something simmilar to HTTPS; secure communcation / transations over the internet.  }
+\vfill
+\noindent \textbf{B: What piece of information do both Alice and Bob keep secret to ensure that nobody can decode the messages they are sending back and forth?  What happens if this secret leaks out? }
+\vfill
+\textbf{They want to keep their private key secret or else nothing will be private anymore. }
+\vfill \vfill \vfill \vfill \vfill \vfill \vfill \vfill \vfill
+
+\end{document}
+
