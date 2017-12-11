@@ -1,0 +1,14 @@
+product id,description,unit price,x,y
+1,banana,0.49,4,80
+2,apple,0.49,4,70
+3,cucumber,0.99,30,75
+4,onion,0.39,30,65
+5,potato chips,1.99,30,55
+6,coca cola classic 6-pack,3.99,25,30
+7,whole milk,1.99,50,90
+8,whole wheat fig bars,4.99,60,75
+9,taco shells,3.50,60,65
+10,ground beef 1lb,3.99,60,55
+11,cheddar cheese,5.00,75,30
+12,salsa,4.99,96,80
+13,coffee,9.99,96,70
